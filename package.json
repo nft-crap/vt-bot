@@ -1,0 +1,22 @@
+{
+  "name": "vt-bot",
+  "version": "1.0.0",
+  "description": "veel-tark bot to interact with discord and the metaverse",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node src/bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "@zoralabs/zdk": "^2.4.0",
+    "axios": "^1.6.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.3.0",
+    "openai": "^4.0.0",
+    "path": "^0.12.7"
+  }
+}
